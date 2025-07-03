@@ -5,8 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-TASK.md
-PRD.md
+
 # testing
 /coverage
 
@@ -37,6 +36,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Project documentation (keep in root, not in repo)
+TASK.md
+PRD.md
+
 # Cloudflare
-.wrangler
-/functions
+.wrangler/
+wrangler.toml
+.env
