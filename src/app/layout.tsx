@@ -59,6 +59,11 @@ export const metadata: Metadata = {
     description: "Multi-disciplinary technology consultant delivering transformative solutions across DevOps, AI, and software architecture.",
     images: ["/og-image.jpg"]
   },
+  icons: {
+    icon: '/cosmic-favicon.svg',
+    shortcut: '/cosmic-favicon.svg',
+    apple: '/cosmic-favicon.svg',
+  },
   robots: {
     index: true,
     follow: true,
