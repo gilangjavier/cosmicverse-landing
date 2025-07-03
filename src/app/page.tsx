@@ -80,7 +80,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center space-x-2 text-cosmic-dark">
               <CheckCircle className="w-6 h-6 text-green-500" />
               <span className="font-semibold">10x scalable architectures</span>
-            </div>
+        </div>
           </motion.div>
           
           <motion.div 
@@ -208,7 +208,7 @@ export default function HomePage() {
             <a href="https://linkedin.com/in/gilangjaver7" className="text-gray-300 hover:text-white transition-colors">
               LinkedIn
             </a>
-            <a href="mailto:hello@cosmicverse.cloud" className="text-gray-300 hover:text-white transition-colors">
+            <a href="mailto:gillvision0@gmail.com" className="text-gray-300 hover:text-white transition-colors">
               Email
             </a>
             <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">

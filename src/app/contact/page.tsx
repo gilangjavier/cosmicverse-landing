@@ -406,8 +406,8 @@ const contactMethods = [
     icon: Mail,
     label: "Email",
     description: "For detailed project discussions",
-    action: "hello@cosmicverse.cloud",
-    href: "mailto:hello@cosmicverse.cloud",
+    action: "gillvision0@gmail.com",
+    href: "mailto:gillvision0@gmail.com",
     color: "bg-blue-600"
   },
   {

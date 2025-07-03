@@ -84,10 +84,10 @@ cosmicverse-website/
    ```
 
 3. **Start development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
+```bash
+npm run dev
+# or
+yarn dev
    ```
 
 4. **Open in browser**
@@ -243,7 +243,7 @@ vercel --prod
 **Gilang Javier** - Multi-disciplinary Technology Consultant
 - 🔗 **LinkedIn**: [linkedin.com/in/gilangjaver7](https://linkedin.com/in/gilangjaver7)
 - 🌐 **Website**: [cosmicverse.cloud](https://cosmicverse.cloud)
-- 📧 **Email**: hello@cosmicverse.cloud
+- 📧 **Email**: gillvision0@gmail.com
 
 **Expertise Areas:**
 - DevOps Engineering & Infrastructure Automation
