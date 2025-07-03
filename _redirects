@@ -1,0 +1,7 @@
+# Force HTTPS
+http://cosmicverse.cloud/* https://cosmicverse.cloud/:splat 301!
+http://www.cosmicverse.cloud/* https://cosmicverse.cloud/:splat 301!
+https://www.cosmicverse.cloud/* https://cosmicverse.cloud/:splat 301!
+
+# SPA fallback
+/* /index.html 200 
