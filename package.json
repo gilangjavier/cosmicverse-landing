@@ -7,10 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "next build && next export",
-    "pages:dev": "next dev",
-    "deploy": "npm run build && wrangler pages deploy ./out",
-    "deploy:preview": "npm run build && wrangler pages deploy ./out --preview"
+    "deploy": "npm run build && npx wrangler pages deploy ./out --project-name=cosmicverse-landing",
+    "deploy:preview": "npm run build && npx wrangler pages deploy ./out --project-name=cosmicverse-landing --preview",
+    "pages:create": "npx wrangler pages project create cosmicverse-landing"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
