@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "pages:build": "next build && next export",
-    "pages:dev": "next dev"
+    "pages:dev": "next dev",
+    "deploy": "npm run build && wrangler pages deploy ./out",
+    "deploy:preview": "npm run build && wrangler pages deploy ./out --preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
@@ -34,6 +36,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^3.91.0"
   }
 }
