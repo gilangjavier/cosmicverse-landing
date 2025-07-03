@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Mail, Calendar, MessageSquare, Phone, Clock, MapPin, CheckCircle, Send } from "lucide-react";
+import { ArrowRight, Mail, Calendar, MessageSquare, Clock, CheckCircle, Send } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -151,7 +151,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="text-cosmic-dark">Strategic Consultation Request</CardTitle>
                 <CardDescription className="text-cosmic-gray">
-                  Tell us about your project and we'll design a solution that delivers measurable results
+                  Tell us about your project and we&apos;ll design a solution that delivers measurable results
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -340,7 +340,7 @@ export default function ContactPage() {
                       Request Submitted Successfully!
                     </h3>
                     <p className="text-cosmic-gray mb-6">
-                      Thank you for your interest in working together. I'll review your request and respond within {" "}
+                      Thank you for your interest in working together. I&apos;ll review your request and respond within {" "}
                       {formData.urgency === "emergency" ? "1 hour" : 
                        formData.urgency === "urgent" ? "4 hours" : "24 hours"}.
                     </p>

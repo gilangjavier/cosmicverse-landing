@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Award, BookOpen, Code, Users, TrendingUp, CheckCircle, Calendar, MapPin, Mail } from "lucide-react";
+import { ArrowRight, Award, BookOpen, Code, Users, TrendingUp, Calendar, MapPin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -52,13 +52,13 @@ export default function AboutPage() {
                 cannot address effectively.
               </p>
               <p>
-                With over 8 years of hands-on experience, I've helped enterprises reduce 
+                With over 8 years of hands-on experience, I&apos;ve helped enterprises reduce 
                 infrastructure costs by up to 40% while simultaneously implementing AI systems 
                 that generate measurable ROI. My approach combines deep technical expertise with 
                 strategic business thinking, ensuring every solution drives competitive advantage.
               </p>
               <p>
-                I've architected systems serving millions of users, implemented ML pipelines 
+                I&apos;ve architected systems serving millions of users, implemented ML pipelines 
                 processing terabytes of data daily, and designed DevOps workflows enabling 
                 multiple daily deployments with confidence. My commitment extends beyond project 
                 completion – I partner with organizations for their long-term technological success.

@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, ExternalLink, TrendingUp, Clock, Users, DollarSign, CheckCircle } from "lucide-react";
+import { ArrowRight, ExternalLink, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
 export default function PortfolioPage() {
